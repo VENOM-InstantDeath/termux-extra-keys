@@ -10,9 +10,9 @@ if [ "$PWD" != "$HOME" ]; then
 fi
 if [ ! -d ".termux" ]; then
 	mkdir .termux;
-	printf "carpeta \".termux\" creada.\n";
+	printf "directorio \".termux\" creada.\n";
 else
-	printf "carpeta \".termux\" encontrada.\n";
+	printf "directorio \".termux\" encontrada.\n";
 fi
 printf "\033[1;31mCambiando directorio a .termux\n\033[0m";
 cd .termux;
